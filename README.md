@@ -1,10 +1,10 @@
-#Shell command
+# Shell command
 pwd: shows the current path in a hierarchical directory
 
-###cd
+### cd
 change directory
 
-###ls
+### ls
 list files and directories
 
 ---
@@ -21,13 +21,13 @@ list files and directories
 
 ---
 
-###options:
+### options:
  -l show detailed information (long format)
  -lh same as above, but size in units 
 
 ---
 
-###ls
+### ls
 The Ls is command is used to list the contents of a directory. It is probably the most commonly used Linux command. It can be used in a number of different ways. Here are some examples.
 
 ls: List the files in the working directory
@@ -38,12 +38,12 @@ ls -la ..: List all files (even ones with names beginning with a period characte
 
 ---
 
-###Long Format
+### Long Format
 File Permissions  Owner  Group    Size(in bytes) Modification Time File Name
 
 ---
 
-###TIP
+### TIP
 > press "Tab" key to autocompletion
 > press up "arrow key" to copy previous commands.
 
@@ -54,11 +54,11 @@ Clear terminal screen.
 
 ---
 
-#Manipulation
+# Manipulation
 
 ---
 
-###cp
+### cp
 copy files and directories
 
 cp file1 file2: Copies the contents of file1 into file2. If file2 does not exists, it is created; otherwise, file2 is silently overwiritten with the contents of file1.
@@ -71,7 +71,7 @@ cp -R dir1 dir2: Copy the contents of the directory dir1. If directory dir2 does
 
 ---
 
-###mv
+### mv
 move files and directories or rename them
 
 mv file1 file2: If file2 does not exist, then file1 is renamed file2. If file2 exists, its contents are silently replaced with the contents of file1.
@@ -84,7 +84,7 @@ mv dir1 dir2: If dir2 does not exist, then dir1 is renamed dir2. If dir2 exists,
 
 ---
 
-###rm
+### rm
 delete files and directories permantely and irreversevely!!!
 
 rm file1 file2: Delete file1 and file2.
@@ -95,5 +95,5 @@ rm -r dir1 dir2: Directories dir1 and dir2 are deleted along with all of their c
 
 ---
 
-###mkdir
+### mkdir
 make a new directory
